@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>the first web</title>
+    <i>AAA</i>
+    <p>a man</p>
+
+</head>
+
+<body>
+
+    <hr bgcolor="red">
+
+        <h3>冉某人的处女作</h3>
+        <form>
+            <!-- 文本框，注意有 placeholder 提示符 -->
+            用户名：<br>
+            <input type="text" name="name" placeholder="请输入用户名"><br>
+            <!-- 密码框 -->
+            密码：<br>
+            <input type="password" name="ps" placeholder="请输入密码"><br>
+            年龄：<br>
+            <!-- 数字输入框，注意 min 和 value 属性-->
+            <input type="number" name="age" min="18" value="18"><br>
+            <!-- 单选按钮, 注意 checked 属性 -->
+            性别：<br>
+            <input type="radio" name="gender" value="male" checked> 男<br>
+            <input type="radio" name="gender" value="female"> 女<br>
+            <input type="radio" name="gender" value="other"> 其它<br>
+            <!-- 下拉列表，注意 selected 属性 -->
+            党派：<br>
+            <select name="party">
+                <option value="D">民主党</option>
+                <option value="R" selected>共和党</option>
+                <option value="N">无党派</option>
+            </select><br>
+            <!-- 多选框 -->
+            您有哪些交通工具：<br>
+            <input type="checkbox" name="vehicle1" value="Bike"> 自行车<br>
+            <input type="checkbox" name="vehicle2" value="Motocycle" checked> 摩托车<br>
+            <input type="checkbox" name="vehicle3" value="Car"> 轿车<br>
+            <input type="checkbox" name="vehicle4" value="Jet"> 飞机<br>
+            <!-- 日期选择器 -->
+            您的工作日期：<br>
+            <input type="date"><br>
+            <!-- 文件选择器 -->
+            上传您的照片:<br>
+            <input type="file" name="photo"><br>
+            <!-- 文本输入区域，注意 rows 和 cols 属性 -->
+            您的建议：<br>
+            <textarea name="message" rows="5" cols="30">
+              The cat was playing in the garden.
+            </textarea><br>
+            <hr>
+            <!-- 表单提交/重置按钮，将表单中的数据取消或传输给服务器端进行处理 -->
+            <input type="submit" value="提 交">
+            <input type="reset" value="重 置">
+        </form>
+        <img src="sky.jpg">
+        <img src="./imagine/picture.jpg">
+        <!-- <img src="https://mdbootstrap.com/img/logo/mdb192x192.jpg" alt="MDB Logo" width="200" height="200"> -->
+        <a href="https://www.baidu.com/" target="_blank">百度一下</a>
+        <a href="https://www.taobao.com/" targrt="_blank">校园网站</a>
+        <!-- 从前有个人 -->
+        <ul type="square">
+            <li>当一个人只为维持生计而思维的时候，他的思想就难以高尚。 ——卢梭</li>
+            <li>衣不如新，人不如旧</li>
+            <li>井蛙不可语天，夏虫不可语冰</li>
+            <li>有党性，没人性</li>
+        </ul>
+        <hr>
+        <!-- 带属性的段落输入框 -->
+        <p title="这是个title属性">鼠标移上来试试！</p>
+        <!-- 带属性的输入框 -->
+        <input type="text">
+        <input type="password">
+        <input type="datetime-local">
+        </hr>
+        <!-- <hr> 这是一首简单的小情歌</hr> -->
+        <article><mark>he has everyting I'm looking for</mark><br>
+            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+            <p><del>This line of text is meant to be treated as deleted text.</del></p>
+            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+            <p><u>This line of text will render as underlined</u></p>
+            <p><small>This line of text is meant to be treated as fine print.</small></p>
+            <p><strong>This line rendered as bold text.</strong></p>
+            <p><em>This line rendered as italicized text.</em></p>
+        </article>
+
+    </body>
+
+</html>
